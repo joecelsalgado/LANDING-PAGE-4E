@@ -1,0 +1,58 @@
+* {
+    font-family: 'Times New Roman', Times, serif    ;
+}
+
+.navbar {
+    height: 10vh; 
+}
+
+#banner {
+    height: 90vh;
+}
+
+#banner .ngee {
+    background: url('ff.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+#banner .meow {
+    padding: 100px;
+}
+
+.btn-primary {
+    background-color: #b212e7 !important;
+    border: #b212e7;
+    border-radius: 0;
+    padding: 12px 34 px;
+    font-size: 20px;
+
+}
+
+#banner h6 {
+    text-transform: uppercase;
+    color: #b212e7;
+}
+
+#banner h1, #services h2 {
+    font-size: 68px;
+}
+
+#about {
+    padding: 100px;
+    background-color: #b212e7;
+}
+#services {
+    padding: 100px;
+    
+}
+
+.card {
+    border: none;
+
+}
+.card-img-top {
+    border: 2px solid #b212e7;
+}
+
