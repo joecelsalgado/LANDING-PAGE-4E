@@ -22,8 +22,8 @@
 }
 
 .btn-primary {
-    background-color: #b212e7 !important;
-    border: #b212e7;
+    background-color: #a015ce !important;
+    border: #ac32d4;
     border-radius: 0;
     padding: 12px 34 px;
     font-size: 20px;
@@ -32,7 +32,7 @@
 
 #banner h6 {
     text-transform: uppercase;
-    color: #b212e7;
+    color: #89579b;
 }
 
 #banner h1, #services h2 {
@@ -41,7 +41,7 @@
 
 #about {
     padding: 100px;
-    background-color: #b212e7;
+    background-color: #b675cc;
 }
 #services {
     padding: 100px;
@@ -53,6 +53,82 @@
 
 }
 .card-img-top {
-    border: 2px solid #b212e7;
+    border: 2px solid #c867e9;
 }
 
+.testimonials {
+    border : 3px solid #89579b;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.testimonials img {
+    border-radius: 50%;
+    width:75px;
+  
+}
+
+#reviews {
+    background-color: #fafafa;
+    padding: 100px 0;
+}
+
+#reviews h2 {
+    font-size: 68px;
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius:  0 !important;
+
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+    
+}
+
+.accordion-body {
+    border-left: 3px solid #89579b;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #89579b;
+    color: #FFF;
+}
+.accordion-button:hover {
+    background-color: #89579b ;
+    color: #FFF;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #89579b;
+} 
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color: #DDB365 ;
+}
